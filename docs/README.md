@@ -153,9 +153,6 @@ api_server.py     - REST API server for product import
 - **Flask**: Web framework for API
 - **Requests**: HTTP library for API calls
 
-## Author
-Violy De La Rosa
-
 ## Notes
 
 - Data validation ensures only 'active' or 'inactive' values are accepted for product status
@@ -174,6 +171,3 @@ Statement product (active/inactive): active
 ## Technologies Used
 
 - Python 3
-
-## Author
-Violy De La Rosa
