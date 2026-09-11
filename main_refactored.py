@@ -1,8 +1,8 @@
 """Main application - Refactored with clean architecture"""
 import sys
 from config_db import DatabaseManager
-from repository_product import ProductRepository
-from service_product import ProductService
+from inventary.repositories.product_repository import ProductRepository
+from inventary.services.product_service import ProductService
 from models_product import Product
 
 class InventoryApp:

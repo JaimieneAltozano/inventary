@@ -1,7 +1,7 @@
 """Product service - Business logic layer"""
 from typing import List, Optional
 from models_product import Product
-from repository_product import ProductRepository
+from inventary.repositories.product_repository import ProductRepository
 
 class ProductService:
     """Service for product business logic"""
