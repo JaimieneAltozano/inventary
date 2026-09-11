@@ -1,7 +1,7 @@
 """Product repository - Data access layer"""
 from typing import List, Optional
-from models_product import Product
-from config_db import DatabaseManager
+from models.product import Product
+from config.database import DatabaseManager
 
 class ProductRepository:
     """Repository for product CRUD operations"""
